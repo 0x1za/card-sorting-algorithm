@@ -17,7 +17,7 @@ for i in cards:
         converted_cards.append(i)
 
 sort = []
-z =0 
+z = 0 
 while z < len(cards): 
     smallest = converted_cards[0]
     for x in converted_cards:
@@ -25,12 +25,15 @@ while z < len(cards):
             smallest = x
         else:
             pass
-
     converted_cards.remove(smallest)
     #print (converted_cards)
     sort.append(smallest)
     #print (sort)
     z+=1
 print (sort)
+#######################################################
+# Convert numerical values to their card equivalent   #
+# Example: [A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, K, Q]   #
+#######################################################
     
         
