@@ -30,10 +30,23 @@ while z < len(cards):
     sort.append(smallest)
     #print (sort)
     z+=1
-print (sort)
+
 #######################################################
 # Convert numerical values to their card equivalent   #
 # Example: [A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, K, Q]   #
 #######################################################
-    
+sorted_cards = []
+for i in sort:
+    if i == 1:
+        sorted_cards.append('A')
+    elif i == 11:
+        sorted_cards.append('J')
+    elif i == 12:
+        sorted_cards.append('K')
+    elif i == 13:
+        sorted_cards.append('Q')
+    else:
+        sorted_cards.append(i) 
+
+print ("The sorted cards are: "+str(sorted_cards))
         
