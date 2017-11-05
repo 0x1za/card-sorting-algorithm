@@ -16,11 +16,21 @@ for i in cards:
     else:
         converted_cards.append(i)
 
-smallest = converted_cards[0]
 sort = []
-for x in converted_cards:
-    if x < smallest:
-        smallest = x
-    else:
-        pass 
+z =0 
+while z < len(cards): 
+    smallest = converted_cards[0]
+    for x in converted_cards:
+        if x < smallest:
+            smallest = x
+        else:
+            pass
+
+    converted_cards.remove(smallest)
+    #print (converted_cards)
+    sort.append(smallest)
+    #print (sort)
+    z+=1
+print (sort)
+    
         
