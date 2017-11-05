@@ -1,3 +1,9 @@
+#######################################################
+# Author: Mwiza Simbeye                               #
+# Institution: African Leadership University Rwanda   #
+# Program: Playing Card Sorting Algorithm             #
+#######################################################
+
 cards = [9, 10, 'J', 'K', 'Q', 4, 5, 6, 7, 8,'A', 2, 3]
 #######################################################
 # Convert cars to their numerical equivalent          #
